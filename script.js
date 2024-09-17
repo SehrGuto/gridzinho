@@ -9,11 +9,11 @@ const checklistItems = [
     },
     {
         title: "Discovery & Connection",
-        subItems: ["Hablar de que estudiaste sobre el anunciante", "Pagina web propia o con partner?", "Que estrategia llevas con tu MP?", "Cuales objetivos tienes para...(navidad? año?)", "Sabes para que sirve... (pixel, api, GTM, etc)?", "como te ha ido con las campañas?"]
+        subItems: ["Hablar de que estudiaste sobre el anunciante", "Pagina web propia o con partner?", "Que estrategia llevas con tu MP?", "Cuales objetivos tienes para...(navidad? año?)", "Sabes para que sirve... (pixel, api, GTM, etc)?", "Como te ha ido con las campañas?"]
     },
     {
         title: "Taylored Solutions/Unlocking opportunities",
-        subItems: ["Ofrecer otras soluciones", "Explicar beneficios solución actual", "explicar beneficios solución sugerida", "tienes dudas sobre lo que vamos hacer hoy?"]
+        subItems: ["Ofrecer otras soluciones", "Explicar beneficios solución actual", "Explicar beneficios solución sugerida", "Tienes dudas sobre lo que vamos hacer hoy?"]
     },
     {
         title: "Implementation",
@@ -21,7 +21,7 @@ const checklistItems = [
     },
     {
         title: "Call Closing",
-        subItems: ["Dudas?", "Mencionar envio del email", "Hacer resumen de la llamada", "Programar follow up con MTP", "programar call back con MP", "Despedida"]
+        subItems: ["Dudas?", "Mencionar envio del email", "Hacer resumen de la llamada", "Programar follow up con MTP", "Programar call back con MP", "Despedida"]
     }
 ];
 
