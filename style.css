@@ -1,0 +1,98 @@
+:root {
+    --verde: #1cb698;
+    --negro: #1e2326;
+    --back-skill-bar: #131517;
+    --text-white: #fff;
+    --secundary: #252A2E;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--negro);
+    color: var(--text-white);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    background-color: var(--secundary);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    max-width: 600px;
+    width: 100%;
+    margin-right: 10%;
+}
+
+h1 {
+    color: var(--verde);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.checklist {
+    list-style-type: none;
+    padding: 0;
+}
+
+.major-item {
+    margin-bottom: 20px;
+    background-color: var(--back-skill-bar);
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.major-item > label {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.sub-items {
+    margin-left: 20px;
+}
+
+.sub-item {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked + label {
+    text-decoration: line-through;
+    color: var(--verde);
+}
+
+.checkmark {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    font-size: 3.5em; /* Increased from 2em to 3.5em */
+    color: var(--verde);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.checkmark.visible {
+    opacity: 1;
+}
+
+/* Add some extra padding to the major-item to accommodate the larger checkmark */
+.major-item {
+    padding-right: 60px; /* Increased from 10px to 60px */
+}
