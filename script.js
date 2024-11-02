@@ -92,18 +92,8 @@ const checklistData = {
         ]
     },
     checklist5: {
-        title: "Checklist 5",
-        items: [
-            {
-                title: "Major Item 1",
-                subItems: ["Sub Item 1", "Sub Item 2", "Sub Item 3"]
-            },
-            {
-                title: "Major Item 2",
-                subItems: ["Sub Item 1", "Sub Item 2", "Sub Item 3"]
-            }
-        ]
-    }
+        title: "Formulario de Teste"
+    }    
 };
 
 const infoData = {
@@ -185,7 +175,7 @@ const checklistTitle = document.getElementById('checklistTitle');
 const buttons = document.querySelectorAll('.checklist-button');
 
 function createChecklist(checklistItems) {
-    checklist.innerHTML = '';
+    checklist.innerHTML = ''; 
     checklistItems.forEach((item, index) => {
         const li = document.createElement('li');
         li.classList.add('major-item');
@@ -307,7 +297,13 @@ function loadChecklist(checklistKey) {
 buttons.forEach(button => {
     button.addEventListener('click', () => {
         const checklistKey = button.dataset.checklist;
-        loadChecklist(checklistKey);
+        if (checklistKey === 'checklist5') {
+            // Redirect to the contact form page
+            window.location.href = 'contact-form.html';
+        } else {
+            // Load normal checklist
+            loadChecklist(checklistKey);
+        }
     });
 });
 
