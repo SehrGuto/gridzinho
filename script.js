@@ -299,7 +299,7 @@ buttons.forEach(button => {
         const checklistKey = button.dataset.checklist;
         if (checklistKey === 'checklist5') {
             // Redirect to the contact form page
-            window.location.href = 'contact-form.html';
+            window.location.href = 'alunos.html';
         } else {
             // Load normal checklist
             loadChecklist(checklistKey);
