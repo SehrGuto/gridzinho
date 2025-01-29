@@ -11,14 +11,14 @@
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-WH2VKGV2');</script>
-<!-- End Google Tag Manager -->
+    })(window,document,'script','dataLayer','GTM-KQVBGG26');</script>
+    <!-- End Google Tag Manager -->
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WH2VKGV2"
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KQVBGG26"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+    <!-- End Google Tag Manager (noscript) -->
 
 <div class="form-container">
     <form id="tagManagerForm" onsubmit="updateGTM(event)">
@@ -29,33 +29,6 @@
         <button type="submit">Update GTM</button>
     </form>
 </div>
-
-<script>
-    // Função para atualizar o ID do Google Tag Manager
-    function updateGTM(event) {
-        event.preventDefault();
-
-        const newGtmId = document.getElementById('gtmId').value;
-
-        // Atualizar o script dinâmico
-        const gtmScript = document.getElementById('gtm-script');
-        const newScriptContent = `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer','${newGtmId}');`;
-        gtmScript.textContent = newScriptContent;
-
-        // Atualizar o noscript dinâmico
-        const gtmNoscript = document.getElementById('gtm-noscript');
-        gtmNoscript.innerHTML = `<iframe src="https://www.googletagmanager.com/ns.html?id=${newGtmId}"
-            height="0" width="0" style="display:none;visibility:hidden"></iframe>`;
-
-        // Exibir mensagem de sucesso
-        alert(`Google Tag Manager ID atualizado para: ${newGtmId}`);
-    }
-</script>
-
     <div class="form-container">
         <form id="contactForm" onsubmit="handleSubmit(event)">
             <div class="form-group">
