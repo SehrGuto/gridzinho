@@ -4,27 +4,31 @@ const checklistData = {
         items: [
             {
                 title: "Call Opening",
-                subItems: ["Presentación", "Duración de la llamada", "Diferencia MTP/SBG", "Verificar la cuenta", "Informar agenda", "Confirmar agenda"]
+                subItems: ["Presentarse Nombre", "Presentar el cargo", "Mencionar el equipo de MP", "Da valor al MP(comercial conversation)", "Confirmar el objetivo de la llamada o preguntarlo", "Demostrar conocimiento o resumen de una asesoria anterior", "Tener conocimiento de las notas de la ultima asesoria", "Confirmar cuenta (privacy)", "Agenda"]
             },
             {
                 title: "Securing Commitments",
-                subItems: ["Computadora?", "Permisos?", "Administrador?"]
+                subItems: ["Confirmar permisos"]
             },
             {
                 title: "Discovery & Connection",
-                subItems: ["Hablar de que estudiaste sobre el anunciante", "Pagina web propia o con partner?", "Que estrategia llevas con tu MP?", "Cuales objetivos tienes para...(navidad? año?)", "Sabes para que sirve... (pixel, api, GTM, etc)?", "como te ha ido con las campañas?"]
+                subItems: ["Preguntar objetivo de marketing", "Confirmar sitio web (si aplica)", "Preguntar si ha tenido alguna estrategia con MP", "Preguntar que programas o plataformas utiliza para trabajar", "Preguntar sobre resultados o rendimiento de campañas", "Preguntas adicionales o experiencias"]
             },
             {
-                title: "Taylored Solutions/Unlocking opportunities",
-                subItems: ["Ofrecer otras soluciones", "Explicar beneficios solución actual", "explicar beneficios solución sugerida", "tienes dudas sobre lo que vamos hacer hoy?"]
+                title: "Taylor and Solutions",
+                subItems: ["Paso a paso de la solución", "Beneficios de usar la implementación en las campañas", "Como funciona la solución implementada", "Estadisticas y proyecciones", "Solucion implementada"]
             },
             {
-                title: "Implementation",
-                subItems: ["Hacer implementación", "Probar implementación"]
+                title: "Commercial Conversation",
+                subItems: ["Estadisticas de la implementacion del proteamhub:", "Como impacta la solución directamente en las camapañas", "Dar beneficios de volver con el MP (si aplica)"]
+            },
+            {
+                title: "Unlocking Opportunities",
+                subItems: ["Atender las objeciones"]
             },
             {
                 title: "Call Closing",
-                subItems: ["Dudas?", "Mencionar envio del email", "Hacer resumen de la llamada", "Programar follow up con MTP", "programar call back con MP", "Despedida"]
+                subItems: ["Resumen", "Recordar si tiene un nuevo agendamiento (si aplica:0)", "Agendar nueva asesoria con el MP o informar pasos a seguir", "Asegurarse que no haya dudas"]
             }
         ]
     },
