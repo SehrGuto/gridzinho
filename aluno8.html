@@ -66,15 +66,15 @@
             
             // Get form data
             const formData = {
-                name: document.getElementById('name').value,
-                email: document.getElementById('email').value,
-                phone: document.getElementById('phone').value
+                triangulo: document.getElementById('name').value,
+                cuadrado: document.getElementById('email').value,
+                circulo: document.getElementById('phone').value
             };
 
             // Push the event to dataLayer
             window.dataLayer = window.dataLayer || [];
             window.dataLayer.push({
-                'event': 'form_submit',
+                'event': 'qq_gorda',
                 'formName': 'contact_form',
                 'formData': formData
             });
@@ -95,9 +95,9 @@
     // Push event to dataLayer for Google Tag Manager
     window.dataLayer = window.dataLayer || [];
     window.dataLayer.push({
-        event: 'addToCart',
-        ecommerce: {
-            items: [
+        event: 'pipshass',
+        tienda: {
+            productos: [
                 {
                     item_name: product,
                     price: price,

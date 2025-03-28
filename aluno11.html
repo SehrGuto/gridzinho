@@ -75,15 +75,15 @@
             
             // Get form data
             const formData = {
-                name: document.getElementById('name').value,
-                email: document.getElementById('email').value,
-                phone: document.getElementById('phone').value
+                nominho: document.getElementById('name').value,
+                emailzinho: document.getElementById('email').value,
+                phonezinho: document.getElementById('phone').value
             };
 
             // Push the event to dataLayer
             window.dataLayer = window.dataLayer || [];
             window.dataLayer.push({
-                'event': 'form_submit',
+                'event': 'arbolitos',
                 'formName': 'contact_form',
                 'formData': formData
             });
@@ -104,13 +104,13 @@
     // Push event to dataLayer for Google Tag Manager
     window.dataLayer = window.dataLayer || [];
     window.dataLayer.push({
-        event: 'addToCart',
-        ecommerce: {
-            items: [
+        event: 'manzanitas',
+        ubicacion: {
+            sububicacion: [
                 {
-                    item_name: product,
-                    price: price,
-                    quantity: 1
+                    si: product,
+                    no: price,
+                    mas_o_menos: 1
                 }
             ]
         }

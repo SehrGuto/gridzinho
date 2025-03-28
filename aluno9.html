@@ -66,15 +66,15 @@
             
             // Get form data
             const formData = {
-                name: document.getElementById('name').value,
-                email: document.getElementById('email').value,
-                phone: document.getElementById('phone').value
+                ya_casi: document.getElementById('name').value,
+                me_quedo: document.getElementById('email').value,
+                sin_creatividad: document.getElementById('phone').value
             };
 
             // Push the event to dataLayer
             window.dataLayer = window.dataLayer || [];
             window.dataLayer.push({
-                'event': 'form_submit',
+                'event': 'ya_no_aguanto_mas',
                 'formName': 'contact_form',
                 'formData': formData
             });
@@ -95,13 +95,13 @@
     // Push event to dataLayer for Google Tag Manager
     window.dataLayer = window.dataLayer || [];
     window.dataLayer.push({
-        event: 'addToCart',
-        ecommerce: {
-            items: [
+        event: 'compre_mas',
+        ecommercce: {
+            item: [
                 {
-                    item_name: product,
-                    price: price,
-                    quantity: 1
+                    item: product,
+                    prices: price,
+                    quantidade: 1
                 }
             ]
         }

@@ -86,15 +86,15 @@
             
             // Get form data
             const formData = {
-                name: document.getElementById('name').value,
-                email: document.getElementById('email').value,
-                phone: document.getElementById('phone').value
+                quien: document.getElementById('name').value,
+                donde: document.getElementById('email').value,
+                llamame: document.getElementById('phone').value
             };
 
             // Push the event to dataLayer
             window.dataLayer = window.dataLayer || [];
             window.dataLayer.push({
-                'event': 'form_submit',
+                'event': 'orejitas',
                 'formName': 'contact_form',
                 'formData': formData
             });
@@ -115,8 +115,8 @@
     // Push event to dataLayer for Google Tag Manager
     window.dataLayer = window.dataLayer || [];
     window.dataLayer.push({
-        event: 'addToCart',
-        ecommerce: {
+        event: 'naricita',
+        tiendita: {
             items: [
                 {
                     item_name: product,
