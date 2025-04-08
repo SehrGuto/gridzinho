@@ -3,8 +3,8 @@ const checklistData = {
         title: "Quer Bonus? Então toma bonus!",
         items: [
             {
-                title: "Call Opening",
-                subItems: ["Presentarse Nombre", "Presentar el cargo", "Mencionar el equipo de MP", "Da valor al MP(comercial conversation)", "Confirmar el objetivo de la llamada o preguntarlo", "Demostrar conocimiento o resumen de una asesoria anterior", "Tener conocimiento de las notas de la ultima asesoria", "Confirmar cuenta (privacy)", "Agenda"]
+                title: "Privacy / Call Opening",
+                subItems: ["Presentarse Nombre", "Presentar el cargo", "Legal Disclosure (click en info)", "Confirmar cuenta (4 ultimos)", "Agenda"]
             },
             {
                 title: "Securing Commitments",
@@ -103,8 +103,8 @@ const checklistData = {
 const infoData = {
     bonus: [
         {
-            title: "Call Opening",
-            content: "The call opening is crucial for setting the tone of the conversation. Make sure to greet the client warmly, introduce yourself, and briefly explain the purpose of the call."
+            title: "Legal Disclosure",
+            content: "Esta ligação pode ser gravada para fins de treinamento e qualidade. Você pode pedir para não receber mais ligações do time de Marketing a qualquer momento. Tudo bem?"
         },
         {
             title: "Securing Commitments",
