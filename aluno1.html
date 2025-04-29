@@ -94,7 +94,7 @@
             // Push the event to dataLayer
             window.dataLayer = window.dataLayer || [];
             window.dataLayer.push({
-                'event': 'orejitas',
+                'event': 'form_submit',
                 'formName': 'contact_form',
                 'formData': formData
             });
@@ -115,8 +115,8 @@
     // Push event to dataLayer for Google Tag Manager
     window.dataLayer = window.dataLayer || [];
     window.dataLayer.push({
-        event: 'naricita',
-        tiendita: {
+        event: 'add_to_cart',
+        ecommerce: {
             items: [
                 {
                     item_name: product,
