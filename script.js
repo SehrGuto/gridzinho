@@ -3,32 +3,36 @@ const checklistData = {
         title: "Quer Bonus? Então toma bonus!",
         items: [
             {
-                title: "Privacy / Call Opening",
-                subItems: ["Presentarse Nombre", "Presentar el cargo", "Legal Disclosure (click en info)", "Confirmar cuenta (4 ultimos)", "Agenda"]
+                title: "Privacy",
+                subItems: ["Últimos 4 digitos da conta de anúncios", "Esta ligação pode ser gravada para fins de treinamento e qualidade. Tudo bem?"]
             },
             {
-                title: "Securing Commitments",
-                subItems: ["Confirmar permisos"]
+                title: "Call Opening",
+                subItems: ["Menção do cargo e a explicação do papel.", "Diferenciação de cargo.", "Validação do objetivo da assessoria.", "Demonstração de conhecimento sobre a conta.", "Agenda do que será realizado na chamada.", "Validação de que o cliente deseja trabalhar algo adicional."]
+            },
+            {
+                title: "Securing Commiments",
+                subItems: ["Validou que o anunciante tenha permissões."]
             },
             {
                 title: "Discovery & Connection",
-                subItems: ["Preguntar objetivo de marketing", "Confirmar sitio web (si aplica)", "Preguntar si ha tenido alguna estrategia con MP", "Preguntar que programas o plataformas utiliza para trabajar", "Preguntar sobre resultados o rendimiento de campañas", "Preguntas adicionales o experiencias"]
+                subItems: ["Validar objetivo com o time de MP.", "Perguntas relevantes para conhecer objetivos do anunciante."]
             },
             {
-                title: "Taylor and Solutions",
-                subItems: ["Paso a paso de la solución", "Beneficios de usar la implementación en las campañas", "Como funciona la solución implementada", "Estadisticas y proyecciones", "Solucion implementada"]
+                title: "Taylored Solutions",
+                subItems: ["Solução passo a passo", "Como funciona a solução implementada", "Solução implementada com sucesso."]
             },
             {
                 title: "Commercial Conversation",
-                subItems: ["Estadisticas de la implementacion del proteamhub:", "Como impacta la solución directamente en las camapañas", "Dar beneficios de volver con el MP (si aplica)"]
+                subItems: ["Conectar a implementação com Objetivos do anunciante", "Estatísticas de implementação do Pro Team Hub", "Fornecer benefícios de retorno ao MP (N/A INC e Mid Market)"]
             },
             {
                 title: "Unlocking Opportunities",
-                subItems: ["Atender las objeciones"]
+                subItems: ["Atender objeções e dúvidas"]
             },
             {
                 title: "Call Closing",
-                subItems: ["Resumen", "Recordar si tiene un nuevo agendamiento (si aplica:0)", "Agendar nueva asesoria con el MP o informar pasos a seguir", "Asegurarse que no haya dudas"]
+                subItems: ["Resumo do que foi feito", "Lembrar assessorias futuras", "Agende uma nova consulta com o MP ou com nosso time (N/A INC ou Mid Market)", "Certifique-se de que não há dúvidas"]
             }
         ]
     },
