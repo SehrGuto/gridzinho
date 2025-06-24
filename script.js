@@ -4,7 +4,7 @@ const checklistData = {
         items: [
             {
                 title: "Privacy",
-                subItems: ["Últimos 4 digitos da conta de anúncios", "Esta ligação pode ser gravada para fins de treinamento e qualidade. Tudo bem?"]
+                subItems: ["Últimos 4 digitos da conta de anúncios", "Esta chamada pode ser gravada para fins de treinamento e qualidade. Tudo bem?"]
             },
             {
                 title: "Call Opening",
